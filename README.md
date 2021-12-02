@@ -7,3 +7,12 @@ An analysis of COVID-19s impact on access to medical care for different groups i
 The CDC's Indicators of Reduced Access to Care Due to the Coronavirus dataset is a ongoing sort survey aimed at assessing different demographics to facilitate rapid responses from federal agencies.
 
 [Indicators of Reduced Access to Care Due to the Coronavirus](https://data.cdc.gov/NCHS/Indicators-of-Reduced-Access-to-Care-Due-to-the-Co/xb3p-q62w)
+
+------------------
+
+### Exploratory Data Analysis
+The CDC data consisted of a number of survays carried out in 2020 and 2021, each approximatly 2 weeks appart. The survays look at the social and economic impacts of Covid-19, specifically how COVID-19 delayed or prevented people from seeking medical care. The survay looked at 70 different socioeconomic and regional groups and provided a value for reduced access to care as well as a confidence interval. 
+
+The data was well structed but did require some cleaning and orginization which can be found in the EDA notebook. 
+
+### Most affected patient populations
