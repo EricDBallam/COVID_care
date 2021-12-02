@@ -39,7 +39,11 @@ The second question was predicting when access to care would return to normal. F
 
 All subgroups had the same number of datapoints so Pearsons was used to determine which time series were strongly related. Pearsons returns a value between -1 and 1 with 0 being no correlation. This analysis showed all but 6 time series were strongly related to the national average (Persons score over 0.7) and so the majority were removed leaving us with a vastly simplified dataset to model on. 
 
+Before modeling could begin it was necessary to define what was meant by normal. The dataset and associated documentation did not define it but did refer to a 2019 study on reduced access due to costs. A search of the CDC database didn’t turn up the 2019 report but did have one covering 1997 to 2007. This data showed all groups holding relatively steady between 10 and 15% reduced access to care. Based on this 15% was selected as the target for the national average. 
 
+Next our error metric and time steps were defined. Without seeing any special needs for error RMSE was selected for all models. The time steps in the data averaged out to about one data point every two weeks so this was chosen as the time between each of our predictions. 
+
+Our data consisted of seveal time series, one for the national average and the 6 features not removed by our correlation analysis. Thus I decided to go with a vectored autoregression model. For this model the only paramater to tune is the number of lag variables 
 
 
 
