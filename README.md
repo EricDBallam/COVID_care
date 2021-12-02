@@ -22,9 +22,11 @@ The first question tackled was finding the most affected patient populations. To
 
 While their were a few that seemed like their were above or below the average nothing stood out as definitive. Next I looked into incorperating the confidence interval as part of this analysis. Plotting them over the time period proved enlightening. 
 
-![Alt text](Images/MalevFemaleciRange.png?raw=true "Male vs Female CI range") ![Alt text](Images/CAvUTciRange.png?raw=true "Male vs Female CI range")
+![Alt text](Images/CAvUTciRange.png?raw=true "Male vs Female CI range")
 
 These plots showed why the Box plots failed to stand out. The downward trend means the quartile range of nearly every subgroup will overlap. However plotting the CI ranges did show another way to approach this problem. By using a two sample dependant t test we could leverage 
+
+![Alt text](Images/MalevFemaleciRange.png?raw=true "Male vs Female CI range") 
 
 
 a two sample dependant t test was required. However missing information on standard deviations and sample populations made this analysis impossible.
