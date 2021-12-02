@@ -30,4 +30,6 @@ These plots showed why the Box plots failed to stand out. The downward trend mea
 
 Instead I decided to simply count where the CI ranges did not overlap with the CI range for the national average. Even without being able to perform the t test it's a safe to assume the means of two groups are differnt if they CI ranges do not overlap. 
 
-![Alt text](Images/WeekCountNonState.png?raw=true "") 
+![Alt text](Images/WeekCountNonState.png?raw=true "Weeks above or below the national average") 
+
+![Alt text](Images/WeekCountStateMap.png?raw=true "Weeks above or below the national average") 
