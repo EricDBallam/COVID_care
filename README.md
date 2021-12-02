@@ -18,4 +18,4 @@ The data was well structed but did require some cleaning and orginization which 
 ### Most affected patient populations
 The first question tackled was finding the most affected patient populations. To do this I first started with a visual analysis, by simply plotting the Box Plots for each subgroup I hoped to find some groups that clearly stood out. 
 
-![Alt text](COVID_care/Images/BoxPlotsNonStates.png?raw=true "Title")
+![Alt text](Images/BoxPlotsNonStates.png?raw=true "Title")
