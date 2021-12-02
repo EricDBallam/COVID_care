@@ -21,3 +21,5 @@ The first question tackled was finding the most affected patient populations. To
 ![Alt text](Images/BoxPlotsNonStates.png?raw=true "Box Plots for Non State Subgroups")
 
 ![Alt text](Images/BoxPlotsStates.png?raw=true "Box Plots for State Subgroups")
+
+While their were a few that seemed like their were above or below the average nothing stood out as definitive.  
