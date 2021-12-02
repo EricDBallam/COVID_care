@@ -43,8 +43,17 @@ Before modeling could begin it was necessary to define what was meant by normal.
 
 Next our error metric and time steps were defined. Without seeing any special needs for error RMSE was selected for all models. The time steps in the data averaged out to about one data point every two weeks so this was chosen as the time between each of our predictions. 
 
-Our data consisted of seveal time series, one for the national average and the 6 features not removed by our correlation analysis. Thus I decided to go with a vectored autoregression model. For this model the only paramater to tune is the number of lag variables 
+Our data consisted of seveal time series, one for the national average and the 6 features not removed by our correlation analysis. Thus I decided to go with a vectored autoregression model. For this model the only paramater to tune is the number of lag variables, to select this I performed a simple grid search. 
 
+![Alt text](Images/lags.png?raw=true "Number of lag variables") 
+
+An RMSE analysis between the training and test data showed that 6 lag variables yeiled the best results.
+
+![Alt text](Images/VAR.png?raw=true "VAR modeling") 
+
+This showed less then encouring results. The VAR model clearly under predicts our validation data. This was using the best lag varable so we will continue with our analysis. For now we will use the model to predict future values and try to determine when access to care will return to normal. Which, according to the CDC, is around 15%. Retraining the model on the full dataset and making predictions into the future 
+
+![Alt text](Images/VARpredict.png?raw=true "VAR predict")
 
 
 
