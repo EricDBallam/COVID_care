@@ -51,9 +51,12 @@ An RMSE analysis between the training and test data showed that 6 lag variables 
 
 ![Alt text](Images/VAR.png?raw=true "VAR modeling") 
 
-This showed less then encouring results. The VAR model clearly under predicts our validation data. This was using the best lag varable so we will continue with our analysis. For now we will use the model to predict future values and try to determine when access to care will return to normal. Which, according to the CDC, is around 15%. Retraining the model on the full dataset and making predictions into the future 
+This showed less then encouring results. The VAR model clearly under predicts our validation data. This was using the best lag varable so we will continue with our analysis. For now we will use the model to predict future values and try to determine when access to care will return to normal. Which, according to the CDC, is around 15%. Retraining the model on the full dataset and making predictions into the future was pretty reasonable. 
 
 ![Alt text](Images/VARpredict.png?raw=true "VAR predict")
 
+This model indicates a return to normal by the beginning of September. 
+
+### Model validation
 
 
