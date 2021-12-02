@@ -1,5 +1,5 @@
 # COVID Access to Care
-An analysis of COVID-19s impact on access to medical care for different groups in the United States.Using the CDC's Indicators of Reduced Access to Care Due to the Coronavirus dataset we will determine the most affected patient populations and predict when access to care is expected to return to normal. 
+An analysis of COVID-19s impact on access to medical care for different groups in the United States. Using the CDC's Indicators of Reduced Access to Care Due to the Coronavirus dataset we will determine the most affected patient populations and predict when access to care is expected to return to normal. 
 
 ------------------
 
@@ -16,3 +16,6 @@ The CDC data consisted of a number of survays carried out in 2020 and 2021, each
 The data was well structed but did require some cleaning and orginization which can be found in the EDA notebook. 
 
 ### Most affected patient populations
+The first question tackled was finding the most affected patient populations. To do this I first started with a visual analysis, by simply plotting the Box Plots for each subgroup I hoped to find some groups that clearly stood out. 
+
+![alt text](https://github.com/EricBallam/COVID_care/blob/master/Images/BoxPlotsNonStates.png?raw=true)
