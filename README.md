@@ -32,4 +32,7 @@ Instead I decided to simply count where the CI ranges did not overlap with the C
 
 ![Alt text](Images/WeekCountNonState.png?raw=true "Weeks above or below the national average") 
 
-This gave a clear picture of which groups where most and least impacted by COVID-19. 
+This gave a clear picture of which groups where most and least impacted by COVID-19. For a full analysis see the Visualization notebook. 
+
+### Predicting a return to normal
+
