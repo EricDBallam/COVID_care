@@ -22,4 +22,6 @@ The first question tackled was finding the most affected patient populations. To
 
 ![Alt text](Images/BoxPlotsStates.png?raw=true "Box Plots for State Subgroups")
 
-While their were a few that seemed like their were above or below the average nothing stood out as definitive.  
+While their were a few that seemed like their were above or below the average nothing stood out as definitive. Next I looked into incorperating the confidence interval as part of this analysis. Plotting them over the time period proved enlightening. 
+
+![Alt text](Images/MalevFemaleciRange.png?raw=true "")
