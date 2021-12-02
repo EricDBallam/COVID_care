@@ -24,9 +24,7 @@ While their were a few that seemed like their were above or below the average no
 
 ![Alt text](Images/CAvUTciRange.png?raw=true "Male vs Female CI range")
 
-These plots showed why the Box plots failed to stand out. The downward trend means the quartile range of nearly every subgroup will overlap. However plotting the CI ranges did show another way to approach this problem. By using a two sample dependant t test we could leverage 
+These plots showed why the Box plots failed to stand out. The downward trend means the quartile range of nearly every subgroup will overlap. However plotting the CI ranges did show another way to approach this problem. By using a two sample dependant t test we could leverage the CI to determine which subgroups with significantly above or below the national average. This also proved problematic as the data set didn't provide the standard deviation or the sample populations making the t test analysis impossible. 
 
 ![Alt text](Images/MalevFemaleciRange.png?raw=true "Male vs Female CI range") 
 
-
-a two sample dependant t test was required. However missing information on standard deviations and sample populations made this analysis impossible.
