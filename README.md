@@ -35,4 +35,12 @@ Instead I decided to simply count where the CI ranges did not overlap with the C
 This gave a clear picture of which groups where most and least impacted by COVID-19. For a full analysis see the Visualization notebook. 
 
 ### Predicting a return to normal
+The second question was predicting when access to care would return to normal. For this we turn to time series modeling, however with 70 subgroups and only 24 datapoints we simply had too many features to leverage in modeling. Also from our visalization of the data we could easily tell that many of the features would be highly correlation. 
+
+All subgroups had the same number of datapoints so Pearsons was used to determine which time series were strongly related. Pearsons returns a value between -1 and 1 with 0 being no correlation. This analysis showed all but 6 time series were strongly related to the national average (Persons score over 0.7) and so the majority were removed leaving us with a vastly simplified dataset to model on. 
+
+
+
+
+
 
