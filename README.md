@@ -22,9 +22,12 @@ The first question tackled was finding the most affected patient populations. To
 
 While their were a few that seemed like their were above or below the average nothing stood out as definitive. Next I looked into incorperating the confidence interval as part of this analysis. Plotting them over the time period proved enlightening. 
 
-![Alt text](Images/CAvUTciRange.png?raw=true "Male vs Female CI range")
+![Alt text](Images/CAvUTciRange.png?raw=true "CA vs UT CI range")
 
 These plots showed why the Box plots failed to stand out. The downward trend means the quartile range of nearly every subgroup will overlap. However plotting the CI ranges did show another way to approach this problem. By using a two sample dependant t test we could leverage the CI to determine which subgroups with significantly above or below the national average. This also proved problematic as the data set didn't provide the standard deviation or the sample populations making the t test analysis impossible. 
 
 ![Alt text](Images/MalevFemaleciRange.png?raw=true "Male vs Female CI range") 
 
+Instead I decided to simply count where the CI ranges did not overlap with the CI range for the national average. Even without being able to perform the t test it's a safe to assume the means of two groups are differnt if they CI ranges do not overlap. 
+
+![Alt text](Images/WeekCountNonState.png?raw=true "") 
