@@ -58,5 +58,6 @@ This showed less then encouring results. The VAR model clearly under predicts ou
 This model indicates a return to normal by the beginning of September. 
 
 ### Model validation
+Data for this project was collected in March 2021 and only contained data from before February 2021. In April 2021 data was recollected, which now contained data up to June 2021. This allowed me to compare the results of my VAR model against a few months of data. 
 
-
+![Alt text](Images/VARpredictvsActual.png?raw=true "VAR vs Actual data")
