@@ -19,3 +19,5 @@ The data was well structed but did require some cleaning and orginization which 
 The first question tackled was finding the most affected patient populations. To do this I first started with a visual analysis, by simply plotting the Box Plots for each subgroup I hoped to find some groups that clearly stood out. 
 
 ![Alt text](Images/BoxPlotsNonStates.png?raw=true "Box Plots for Non State Subgroups")
+
+![Alt text](Images/BoxPlotsStates.png?raw=true "Box Plots for State Subgroups")
