@@ -61,3 +61,17 @@ This model indicates a return to normal by the beginning of September.
 Data for this project was collected in March 2021 and only contained data from before February 2021. In April 2021 data was recollected, which now contained data up to June 2021. This allowed me to compare the results of my VAR model against a few months of data. 
 
 ![Alt text](Images/VARpredictvsActual.png?raw=true "VAR vs Actual data")
+
+The predictions from our VAR model seem pretty reasonable, even if it still under predicts the actual data. The CDC data lags behind current events pretty signifcantly, at the time of writing this notebook we have seen the results of the Delta varriant and the hospital closures that have come with it. That could mean access to care was reduced during that time and might track with the peak in the VAR predictions. 
+
+#### Future work
+Continuing work on this project their are a few things we could do to imporve the model performance
+
+- Impute missing data
+     - Their are a few gaps in the data, currently our VAR model doesn't take that into account which could be skewing the results. Simple imputation of the missing data might improve accuracy
+     
+- Removing the trend
+     - With the original data from Febuary we didn't see much of a trend, however with the data from June we can now see that the data does have a strong downward trend. This could be removed with differencing which could help model performance
+     
+- Seasonality
+     - The VAR predictions, as well as knowledge of the Delta varriant, could indicate a seasonal trend to the data. While we aren't currently seeing this in the CDC data it's something to look out for in future itterations of this project. 
